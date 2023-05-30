@@ -4,143 +4,161 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F8DEDE"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/size"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="63dp"
         android:fontFamily="casual"
         android:rotation="0"
-        android:scaleX="2"
-        android:scaleY="3.5"
+        android:scaleX="1"
+        android:scaleY="1.9"
         android:text="Lost Mab Lib"
         android:textColor="#6A1111"
+        android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.567" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="89dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="601dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="338dp"
-        android:layout_height="502dp"
+        android:layout_width="378dp"
+        android:layout_height="506dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline2">
+        tools:layout_editor_absoluteY="143dp">
 
         <EditText
             android:id="@+id/etAdjetive"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="monospace"
             android:hint="Adjetive"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColor="#5E17A5"
+            android:textColorHint="#B17171" />
 
         <EditText
             android:id="@+id/etNoun"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="monospace"
             android:hint="Noun"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColor="#5E17A5"
+            android:textColorHint="#B17171" />
 
         <EditText
             android:id="@+id/etTime"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="monospace"
+            android:hint="Time"
             android:inputType="time"
-            android:hint="Time" />
+            android:textColor="#5E17A5"
+            android:textColorHint="#B17171" />
 
         <EditText
             android:id="@+id/etNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="monospace"
+            android:hint="Number"
             android:inputType="number"
-            android:hint="Number"/>
+            android:textColor="#5E17A5"
+            android:textColorHint="#B17171" />
 
         <EditText
             android:id="@+id/etDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="monospace"
+            android:hint="Date"
             android:inputType="date"
-            android:hint="Date" />
+            android:textColor="#5E17A5"
+            android:textColorHint="#B17171" />
 
         <EditText
             android:id="@+id/etAnimal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="monospace"
+            android:hint="Animal"
             android:inputType="text"
-            android:hint="Animal" />
+            android:textColor="#5E17A5"
+            android:textColorHint="#B17171" />
 
         <EditText
             android:id="@+id/etNoun2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="monospace"
+            android:hint="Noun"
             android:inputType="text"
-            android:hint="Noun" />
+            android:textColor="#5E17A5"
+            android:textColorHint="#B17171" />
 
         <EditText
             android:id="@+id/etTime2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="monospace"
+            android:hint="Time"
             android:inputType="time"
-            android:hint="Time" />
+            android:textColor="#5E17A5"
+            android:textColorHint="#B17171" />
 
         <EditText
             android:id="@+id/etEmotion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="monospace"
+            android:hint="Emotion"
             android:inputType="text"
-            android:hint="Emotion" />
+            android:textColor="#5E17A5"
+            android:textColorHint="#B17171" />
 
         <EditText
             android:id="@+id/etAdjetive2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="monospace"
+            android:hint="Adjetive"
             android:inputType="text"
-            android:hint="Adjetive" />
+            android:textColor="#5E17A5"
+            android:textColorHint="#B17171" />
 
         <EditText
-            android:id="@+id/et"
+            android:id="@+id/etFood"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="monospace"
+            android:hint="Food"
             android:inputType="text"
-            android:text="Name" />
+            android:textColor="#5E17A5"
+            android:textColorHint="#B17171" />
+
     </LinearLayout>
 
     <Button
         android:id="@+id/etStart"
-        android:layout_width="210dp"
-        android:layout_height="85dp"
+        android:layout_width="207dp"
+        android:layout_height="84dp"
         android:fontFamily="serif"
         android:text="Start..."
         android:textColor="#4EFF27"
@@ -149,6 +167,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.37" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

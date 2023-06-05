@@ -34,12 +34,12 @@
         app:layout_constraintTop_toBottomOf="@+id/size">
 
         <EditText
-            android:id="@+id/et_adjetive"
+            android:id="@+id/et_adjective"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:fontFamily="monospace"
-            android:hint="Adjetive"
+            android:hint="Adjective"
             android:inputType="text"
             android:textColor="#5E17A5"
             android:textColorHint="#B17171" />
@@ -133,12 +133,12 @@
             android:textColorHint="#B17171" />
 
         <EditText
-            android:id="@+id/et_adjetive2"
+            android:id="@+id/et_adjective2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:fontFamily="monospace"
-            android:hint="Adjetive"
+            android:hint="Adjective"
             android:inputType="text"
             android:textColor="#5E17A5"
             android:textColorHint="#B17171" />
@@ -157,11 +157,11 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn_start"
-        android:layout_width="207dp"
-        android:layout_height="84dp"
+        android:id="@+id/btn_continue"
+        android:layout_width="237dp"
+        android:layout_height="79dp"
         android:fontFamily="serif"
-        android:text="Start..."
+        android:text="Continue"
         android:textColor="#4EFF27"
         android:textSize="38sp"
         android:textStyle="bold|italic"
